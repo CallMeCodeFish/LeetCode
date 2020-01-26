@@ -14,6 +14,16 @@ public class ListNode {
         val = x;
     }
 
+    public static ListNode create(int[] nums) {
+        ListNode header = new ListNode(-1);
+        ListNode pred = header;
+        for (int num : nums) {
+            pred.next = new ListNode(num);
+            pred = pred.next;
+        }
+        return header.next;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
