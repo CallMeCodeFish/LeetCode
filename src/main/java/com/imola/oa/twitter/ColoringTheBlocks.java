@@ -1,4 +1,4 @@
-package com.imola.twitter;
+package com.imola.oa.twitter;
 
 import java.util.List;
 

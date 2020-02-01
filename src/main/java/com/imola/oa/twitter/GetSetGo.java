@@ -1,7 +1,5 @@
-package com.imola.twitter;
+package com.imola.oa.twitter;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
