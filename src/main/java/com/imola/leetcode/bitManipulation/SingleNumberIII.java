@@ -22,6 +22,9 @@ package com.imola.leetcode.bitManipulation;
  * Your algorithm should run in linear runtime complexity. Could you implement it using only constant space complexity?
  */
 
+/**
+ * reference https://blog.csdn.net/yijingzhi/article/details/60468795
+ */
 public class SingleNumberIII {
     public int[] singleNumber(int[] nums) {
         int[] res = new int[2];
